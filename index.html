@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="../BOOTSTRAP/bootstrap.min.css">
+    <script src="../BOOTSTRAP/bootstrap.min.js"> </script>
+    <script src="../BOOTSTRAP/bootstrap.bundle.min (1).js"></script>
+    <style>
+        /* Active le menu au survol */
+        /* Afficher le menu dropdown au survol */
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* Évite que les menus disparaissent immédiatement */
+        .navbar .dropdown-menu {
+            margin-top: 0;
+        }
+
+        .op {
+            background-color: rgba(0, 0, 0, 0.6);
+
+        }
+
+        .tt {
+            color: #ff9100;
+        }
+
+        .OO {
+            background-color: #ff9100;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-sm container p-0 fixed-top">
+        <a class="navbar-brand col-3 m-0 op" href="TP.html">
+            <img class="mx-auto d-block m-1" src="IMG/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col-9 m-0 p-0  position-absolute end-0 bottom-0 top-0 flex-column ">
+            <div class="justify-content-between  p-2 collapse navbar-collapse  op" style="width: 100%;">
+                <div>
+                    <ul class=" navbar-nav">
+                        <!-- Dropdown 1 -->
+                        <li class="  nav-item dropdown">
+                            <a class="fw-medium text-white nav-link dropdown-toggle" href="#" role="button">
+                                OFPPT
+                            </a>
+                            <ul class="row dropend justify-content-evenly dropdown-menu m-0" style="width:850px;">
+                                <div class="float-start col-4">
+                                    <li>
+                                        <p class="fw-bold text-dark fs-6 dropdown-item-text  dropdown-toggle" href="#">
+                                            Qui somme nous?</p>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Objectifs</a></li>
+                                    <li><a class="dropdown-item" href="#">Historiques</a></li>
+                                    <li><a class="dropdown-item" href="#">Organigrammes</a></li>
+                                    <li><a class="dropdown-item" href="#">Chiffres cles</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                                <div class="text-center col-1">
+                                    <li>
+                                        <p class="fw-bold fs-6 text-dark dropdown-item-text dropdown-toggle">Offre de
+                                            formation</p>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                    <li>
+                                        <p class=" fw-bold fs-6 text-dark dropdown-item-text dropdown-toggle">Appels
+                                            d'offres</p>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                                <div class=" col-4 position-absolute top-0 end-0">
+                                    <li>
+                                        <p class="fw-bold fs-6 text-dark dropdown-item-text dropdown-toggle">Cooperation
+                                            internationale</p>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Cooperation sud sud</a></li>
+                                    <li><a class="dropdown-item" href="#">Alliance Africaine</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li>
+                                        <p class="fw-bold fs-6 text-dark dropdown-item-text dropdown-toggle">OFPPT TV
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <!-- Dropdown 2 -->
+                        <li class=" nav-item dropdown">
+                            <a class="fw-medium text-white nav-link dropdown-toggle" href="#" role="button">
+                                Capital Humain
+                            </a>
+                            <ul class=" row dropend  container dropdown-menu  " style="width: 770px;">
+                                <div class="float-start ">
+                                    <li><a class="fw-bold fs-6 text-dark dropdown-item dropdown-toggle " href="#">Notre
+                                            capital humain</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item"
+                                            href="#">Retraites</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                                <div class=" ">
+                                    <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item" href="#">Offres
+                                            d'emploi</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                                <div class="">
+                                    <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item"
+                                            href="#">Deposer ma condidature</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <!-- Dropdown 3 -->
+                        <li class="nav-item dropdown">
+                            <a class="fw-medium text-white nav-link dropdown-toggle" href="#" role="button">
+                                Newsroom
+                            </a>
+                            <ul class="row dropdown-menu dropend">
+                                <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item "
+                                        href="#">Comuniques de presse</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item"
+                                        href="#">Publications et documents</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li><a class="fw-bold fs-6 text-dark  dropdown-toggle dropdown-item" href="#">Social
+                                        Media Hub</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                            </ul>
+                        </li>
+                        <a class="text-white fw-medium nav-link" href="">Contact</a>
+                    </ul>
+
+                </div>
+                <div class="float-end d-flex gap-3">
+                    <a class="fw-medium text-white nav-link">FR</a>
+                    <a class="fw-medium text-white nav-link">AR</a>
+                </div>
+            </div>
+            <div class=" position-absolute end-0 bottom-0   p-3  collapse navbar-collapse bg-light"
+                style="width: 100%;">
+                <ul class="navbar-nav">
+                    <!-- Dropdown 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-bold tt fs-5" href="#" role="button">
+                            TROUVER UNE FORMATION
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">ACTION1</a></li>
+                            <li><a class="dropdown-item" href="#">Action 2</a></li>
+                            <li><a class="dropdown-item" href="#">Action 3</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 2 -->
+                    <li class="nav-item dropdown">
+                        <a class="text-info fw-bold nav-link fs-5" href="#" role="button">
+                            ESPACE STAGIARE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action 4</a></li>
+                            <li><a class="dropdown-item" href="#">Action 5</a></li>
+                            <li><a class="dropdown-item" href="#">Action 6</a></li>
+                        </ul>
+                    </li>
+                    <!-- Dropdown 3 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fw-bold text-warning fs-5 " href="#" role="button">
+                            ESPACE ENTREPRISE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action 7</a></li>
+                            <li><a class="dropdown-item" href="#">Action 8</a></li>
+                            <li><a class="dropdown-item" href="#">Action 9</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- carousel -->
+    <div id="crsl" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators justify-content-end">
+            <button type="button" data-bs-target="#crsl" data-bs-slide-to="0" style="width: 15px; height:10px"
+                class="active"></button>
+            <button type="button" data-bs-target="#crsl" data-bs-slide-to="1" style="width: 15px; height:10px"></button>
+            <button type="button" data-bs-target="#crsl" data-bs-slide-to="2" style="width: 15px; height:10px"></button>
+            <button type="button" data-bs-target="#crsl" data-bs-slide-to="3" style="width: 15px; height:10px"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block " style="width: 100%;" src="IMG/SLIDER1.png" alt="slid1">
+            </div>
+            <div class=" carousel-item">
+                <img class="d-block " style="width: 100%;" src="IMG/SLIDER2.png" alt="slid2">
+            </div>
+            <div class=" carousel-item">
+                <img class="d-block " style="width: 100%;" src="IMG/SLIDER3.png" alt="slid3">
+            </div>
+            <div class=" carousel-item">
+                <img class="d-block " style="width: 100%;" src="IMG/SLIDER4.png" alt="slid4">
+            </div>
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#crsl" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#crsl" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="card bg-success" style="width: 400PX;">
+        <div class="card-body">
+            <h4 class="fw-bold fs-5  card-title tt">TROUVER UNE FORMATION <i
+                    src="../BOOTSTRAP/bootstrap-icons-1.11.3/person-fill.svg"></i></h4>
+            <p class="fs-5 fw-medium card-text">Formation diplomante</p>
+            <p class="card-text">Formation qualifiante</p>
+            <p class="card-text">Cours du soir</p>
+            <p class="card-text">Conditions d'acces</p>
+            <button class="btn OO">DECOUVRIR NOS FORMATIONS</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
